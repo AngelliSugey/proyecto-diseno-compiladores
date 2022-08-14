@@ -1,7 +1,0 @@
-html {
-    box-sizing: border-box;
-    font-size: 62.5%; /* 1rem es igual a 10px */
-    }
-    *, *:before, *:after {
-    box-sizing: inherit;
-    }
