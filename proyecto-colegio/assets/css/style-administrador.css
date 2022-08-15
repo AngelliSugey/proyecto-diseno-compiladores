@@ -317,3 +317,50 @@ h3{
     line-height: 0;
 
 }
+
+
+/*          PAGE AVISOS          */
+
+/*AVISOS*/
+
+.avisos{
+    height: auto;
+    margin: 5rem 1rem 5rem 1rem;
+    display: inline-flex;
+}
+
+.avisos-text{
+    maxwidth: 58rem;
+    margin: 5rem;
+    padding: 5rem 5rem 0 5rem;
+    background-color: #EDEDED;
+
+}
+
+.avisos-text h2{
+    color: #6E7CFD;
+    text-align: center;
+}
+
+
+.avisos-text p{
+    color: #000000;
+    text-align: justify;
+    font-size: 2.4rem;
+}
+
+.avisos-text h3{
+    color: #000000;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.line{
+    width: auto;
+    height: 2.6rem;
+    padding: -5rem;
+    margin: -5rem;
+    margin-bottom: 5rem;
+    background-color: #FFC900;
+
+}
