@@ -36,6 +36,10 @@ h3{
     font-size: 2.4rem;
 }
 
+h4{
+    font-size: 2rem;
+}
+
 .contenedor{
     min-width: 110rem;
     margin-top: 0;
@@ -51,6 +55,29 @@ h3{
     margin: 7rem 0 7rem 0;
 }
 
+.gray {
+    background-color: #D9D9D9;
+}
+
+.orange {
+    background-color: #FF6400;
+}
+
+.yellow {
+    background-color: #FFC848;
+}
+
+.green {
+    background-color: #7DCEA0;
+}
+
+.blue {
+    background-color: #3498DB;
+}
+
+.purple {
+    background-color: #B931F4;
+}
 
 /*          Header          */
 
@@ -330,7 +357,6 @@ h3{
 }
 
 .avisos-text{
-    maxwidth: 58rem;
     margin: 5rem;
     padding: 5rem 5rem 0 5rem;
     background-color: #EDEDED;
@@ -362,5 +388,123 @@ h3{
     margin: -5rem;
     margin-bottom: 5rem;
     background-color: #FFC900;
+}
 
+/*          PAGE ADMINISTRACION INDEX          */
+
+/*BANNER*/
+
+.banner-administrador {
+    background-image: url(../img/banner-admin-index.jpg);
+    background-position: bottom;
+    width: 100%;
+    height: 60.7rem;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.banner-administrador-text{
+    width: 100%;
+    height: 13.9rem;
+    background-color: rgba(25, 0, 97, 0.5);
+    text-align: center;
+    color: white;
+    padding: 2.5rem;
+}
+
+.banner-administrador-text h1{
+    font-size: 5rem;
+}
+
+/*USER*/
+
+.user-section{
+    width: 100%;
+    min-height: 18.5rem;
+    margin-top: 5rem;
+    display: inline-flex;
+}
+
+.user-sec01{
+    display: inline-flex;
+}
+
+.user-sec01 img{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 5rem;
+    border-radius: 9rem;
+}
+
+.user-sec01 h2{
+    color: #190061;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.user-sec-letter{
+    min-width: 50rem;
+    margin-left: 5rem;
+    padding-top: 2rem;
+}
+
+.user-sec02{
+    width: 100%;
+    text-align: right;
+    margin-right: 5rem;
+    padding: 2rem;
+}
+
+.color-orange{
+    color: #FF6400;
+}
+
+/*SERVICIOS*/
+
+.servicios-admin{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    column-gap: 5rem;
+    margin-bottom: 10rem;
+}
+
+.servicio{
+    min-width: 31rem;
+    min-height: 45.1rem;
+    border: 0.3rem solid #EDEDED;
+    padding: 5rem 0 5rem 0;
+}
+
+.circle{
+    width: 19rem;
+    height: 19rem;
+    margin: auto;
+    padding-top: 4.5rem;
+    border-radius: 19rem;
+}
+
+.servicio img{
+    width: 10rem;
+    display: block;
+    margin: auto;
+}
+
+.servicio h4{
+    margin: auto;
+    margin-top: 10rem;
+    color: #190061;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+.servicio h4:hover{
+    color: #FFC900;
 }
