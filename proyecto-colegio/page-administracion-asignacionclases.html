@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style-administrador.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class=" contenedor menu">
+        <section class="header-section">
+            <img src="./assets/img/logo.jpg" alt="">
+            <h2 class="title-menu">INSTITUTO</h2>
+            <h2 class="title-menu2">EDUCACIÓN EN LINEA</h2>
+            <a href="javascript:void(0)">Cerrar Sesion</a>
+        </section>
+    </header>
+
+    <main class="form-main">
+        <section class="menu02">
+            <section class="first-section">
+                <img src="./assets/img/imagen-03.jpg" alt="">
+                <div class="first-section-text">
+                    <h3>JUANA PEREZ GARCIA</h3>
+                    <h4>Administrador</h4>
+                </div>
+            </section>
+            <nav class="nav">
+                <ul class="menu-ul">
+                    <li><a href="">MATRICULA PRIMER INGRESO</a></li>
+                    <li><a href="">MATRICULA REINGRESO</a></li>
+                    <li> <a href="">CREACION USUARIO ADMINISTRADORES Y DOCENTES</a></li>
+                    <li><a href="">ASIGNACION GRADO DOCENTES</a></li>
+                    <li><a href="#">CREACION SECCIONES GRADO</a>
+                        <ul>
+                            <li><a href="">CREACION CARRERAS</a></li>
+                            <li><a href="">CREACION CLASES</a></li>
+                            <li><a href="">ASIGNACION CLASES</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">AGREGAR AVISOS</a></li>
+                    <li><a href="">MODIFICAR O ELIMINAR AVISOS</a></li>
+                
+                </ul>
+            </nav>
+        </section>
+
+        <section class="section-form">
+            <section class="section-form-title">
+                <div class="circle blue">
+                    <img src="./assets/img/icono-secciones.png" alt="">
+                </div>
+                <h3>ASIGNACION CLASES</h3>
+                <p>03 / 08 / 2022</p>
+            </section>
+
+            <section class="section-form-info">
+                <form class="form" action="">
+
+                    <div class="label-par">
+                        <label for="grado">Grado:</label>
+                        <label for="carrera">Carrera:</label>
+                     </div>
+
+                    <div class="input-par">
+                        <input class="medio" type="text" name="grado" id="grado" required>
+                        <input class="medio" type="text" name="carrera" id="carrera" required>
+                    </div>
+    
+    
+                    <label for="clases">Clases:</label>
+                    
+                    
+                    <div class="input-par">
+                        <input class="btn-form" type="submit" value="GUARDAR">
+                        <input class="btn-form" type="submit" value="CANCELAR">
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+
+
+    <footer class="contenedor footer">
+        <h3>Santa Rosa de Copan</h3>
+        <p>Copyright 2022 - Instituto</p>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
