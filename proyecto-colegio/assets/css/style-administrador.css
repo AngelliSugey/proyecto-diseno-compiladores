@@ -837,3 +837,35 @@ input[type="checkbox"]{
 .center-text{
     text-align: center;
 }
+
+/*INICIO SESION*/
+
+.form-sesion{
+    width: 45%;
+    height: auto;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.btn-sesion{
+    width: 80%;
+    height: 4rem;
+    margin: 5rem 0 2rem 4rem;
+    display: block;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.5rem;
+    background-color: #6E7CFD;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sesion:hover{
+    background-color: #FFC900;
+    color: white;
+    transition: all .3s;
+}
+.btn-form{
+    cursor: pointer;
+}
+
