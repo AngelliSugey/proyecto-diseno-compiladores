@@ -766,6 +766,7 @@ h4{
 
 input[type="checkbox"]{
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 .btn-form{
@@ -817,4 +818,22 @@ input[type="checkbox"]{
     height: 100%;
 }
 
+.cuadro-asignacion{
+    width: 95%;
+    height: auto;
+    background-color: #F4F5FF;
+    margin: auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
+.check-cuadro-asignacion{
+    margin-left: 0.1rem;
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.center-text{
+    text-align: center;
+}
